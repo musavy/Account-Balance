@@ -1,0 +1,108 @@
+body { 
+	margin:0; 
+	padding:0;
+	font:62.5% "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#000;
+	text-align:center;
+	}
+
+
+input{
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 10px 20px;
+  width: calc(20% - 20px);
+  height:  calc(20% - 20px);
+  border: 1px double #b7b7b7;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal 16px/normal "aclonica", Helvetica, sans-serif;
+  color: rgba(0,142,198,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(252,252,252,1);
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 2px 1px 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  -moz-transition: all 200ms cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  -o-transition: all 200ms cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  transition: all 200ms cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+fieldset>legend { 
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+     width:calc(10% - 10px);
+     height:  calc(20% - 20px);
+    border: 2px groove (internal value);
+    color: red;
+    font-size: 15px;
+}
+
+select{
+    
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 10px 20px;
+  border: 1px double #b7b7b7;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal 16px/normal "aclonica", Helvetica, sans-serif;
+  color: rgba(0,142,198,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  height: calc(100%+1rem);
+  width: calc(100%+1rem);
+  background: rgba(252,252,252,1);
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 2px 1px 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  -moz-transition: all 200ms cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  -o-transition: all 200ms cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  transition: all 200ms cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+h1{
+
+  font-family: 'Cardo', serif;
+  font-size: 1.5em;
+  font-weight: normal;
+  font-style: italic;
+  letter-spacing: 0.1em;
+  line-height: 2.2em;
+  text-align: center;
+}
+
+#btn-one{
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+ 
+  width: calc(5% - 10px);
+  padding: 10px 20px;
+  border: 2px solid #018dc4;
+  -webkit-border-radius: 13px / 20px;
+  border-radius: 13px / 20px;
+  font: normal 16px/normal "Times New Roman", Times, serif;
+  color: rgba(255,255,255,0.9);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(137,137,221,1);
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+  text-shadow: -1px -1px 0 rgba(15,73,168,0.66) ;
+  -webkit-transition: all 300ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -moz-transition: all 300ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -o-transition: all 300ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  transition: all 300ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+}

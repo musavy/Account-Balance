@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Musavy Account</title>
+  </head>
+  <body>
+    <div class="container">
+   <h1>Account Balance</h1> 
+    <fieldset>
+      <legend>Insert Data</legend>
+      <input type="text" id="inputkey" placeholder="Enter description" />
+      <input type="text" id="inputvalue" placeholder="Enter amount" />
+      <select>
+        <option value="Income">Income</option>
+        <option value="Expense">Expense</option>
+      </select>
+      <button id="btn-one">Add</button>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        Income
+      </legend>
+      <div class="income"></div>
+    </fieldset>
+    <fieldset>
+      <legend>
+        Expense
+      </legend>
+      <div class="expanse"></div>
+    </fieldset>
+    </div>
+    <footer>
+      <div class="title"><h1> <em>Balance</em></h1></div>
+    <div class="result">My account balance: <span class="retult-span"></span></div>
+    
+  </footer>
+    
+    
+    <script src="./js/main1.js"></script>
+  </body>
+</html>
